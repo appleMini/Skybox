@@ -7,6 +7,7 @@
 //
 
 #import "SKViewController.h"
+#import <Skybox/Skybox-umbrella.h>
 
 @interface SKViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    int sum = [Utils sum:10 B:20];
+    NSLog(@"sum ====  %d", sum);
 }
 
 - (void)didReceiveMemoryWarning

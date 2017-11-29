@@ -1,0 +1,6 @@
+framework module Skybox {
+  umbrella header "Skybox-umbrella.h"
+
+  export *
+  module * { export * }
+}

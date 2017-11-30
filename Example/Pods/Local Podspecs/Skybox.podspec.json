@@ -16,7 +16,25 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "Skybox/Classes/**/*"
+  "source_files": "Skybox/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "Masonry": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  }
 }

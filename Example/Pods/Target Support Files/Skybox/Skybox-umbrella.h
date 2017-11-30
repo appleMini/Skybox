@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "Utils.h"
-
 FOUNDATION_EXPORT double SkyboxVersionNumber;
 FOUNDATION_EXPORT const unsigned char SkyboxVersionString[];
 

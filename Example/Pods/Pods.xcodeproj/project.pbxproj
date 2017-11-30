@@ -144,8 +144,8 @@
 		5E89ED15FDB4CE7F92544DDF4589C242 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3980C8FCDC039FC3C00842DD8A0515 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F15304F06BAA09E176CEF6238DA8AAC /* KWValue.h in Headers */ = {isa = PBXBuildFile; fileRef = B5327B278A055613935CCD0D490FC521 /* KWValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F4ADB57CEB7A57AC58F1E6AAD42A72A /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEFD7E43FBD7236012195FB308B07CC /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60AD625F1FCFE556001C192D /* Skybox.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AD625D1FCFE556001C192D /* Skybox.h */; };
-		60AD62611FCFE5B8001C192D /* Skybox.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AD625D1FCFE556001C192D /* Skybox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60AD62631FCFE6B7001C192D /* Skybox.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AD62621FCFE6B7001C192D /* Skybox.h */; };
+		60AD62641FCFE6BB001C192D /* Skybox.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AD62621FCFE6B7001C192D /* Skybox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60C2A0882C15C9CAA1BC4DF1AD09771F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BABCAC0E754898E3AFBA3821577CCA /* SystemConfiguration.framework */; };
 		630B47AB4AE524D0D43295AE0EA5B146 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5504E563B7B841A447B59E260E9DAE69 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = EC04E2AE7E8765CE157A4C6F308AAB48 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -628,7 +628,7 @@
 		5F6FEF0B9CE3561446E66C44FF51AE70 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F88DB60BF3B7D99E025951833DA8386 /* KWExpectationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExpectationType.h; path = Classes/Core/KWExpectationType.h; sourceTree = "<group>"; };
 		6007C0D08F7B157032566274C5D7BFDE /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
-		60AD625D1FCFE556001C192D /* Skybox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Skybox.h; sourceTree = "<group>"; };
+		60AD62621FCFE6B7001C192D /* Skybox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Skybox.h; path = Skybox/Classes/Skybox.h; sourceTree = "<group>"; };
 		610DB9972E195F182D53B8C8662862EB /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		612D20E0D7A65B7C7F42259BB0D0B0CA /* KWFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFailure.m; path = Classes/Core/KWFailure.m; sourceTree = "<group>"; };
 		62CE2B52613B43C59F2AA9E428AA7AA7 /* KWFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFailure.h; path = Classes/Core/KWFailure.h; sourceTree = "<group>"; };
@@ -1517,10 +1517,10 @@
 		DE8D5ACC87B4FF90FC5987F6854A39CB /* Skybox */ = {
 			isa = PBXGroup;
 			children = (
+				60AD62621FCFE6B7001C192D /* Skybox.h */,
 				4963159A517B1A1E692FBF9D1D33D8AD /* Utils.h */,
 				F7E09DCD1B834DB8FA515990904FE232 /* Utils.m */,
 				E80A513A3153B6ACDE6AE9DE647D028C /* Support Files */,
-				60AD625D1FCFE556001C192D /* Skybox.h */,
 			);
 			name = Skybox;
 			path = ../..;
@@ -1695,8 +1695,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60AD62611FCFE5B8001C192D /* Skybox.h in Headers */,
 				2DE0AD7861411E352EB07D0003174B7C /* Utils.h in Headers */,
+				60AD62641FCFE6BB001C192D /* Skybox.h in Headers */,
 				236B39E9DAC34DCBC3D3F94A0EA8F264 /* Skybox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1733,7 +1733,7 @@
 				46003CFB00EE9EDB7751E5D9515CC8D4 /* UIKit+AFNetworking.h in Headers */,
 				5286E996186A50899A9B6E300D65015B /* UIProgressView+AFNetworking.h in Headers */,
 				D65865C21F7F118FD65704B9D62D94BE /* UIRefreshControl+AFNetworking.h in Headers */,
-				60AD625F1FCFE556001C192D /* Skybox.h in Headers */,
+				60AD62631FCFE6B7001C192D /* Skybox.h in Headers */,
 				25E58152597C474DC6A3F6C5CA90CADE /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,4 +1,5 @@
 # Skybox
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/appleMini/Skybox.svg?style=flat)](https://travis-ci.org/appleMini/Skybox)
 [![Version](https://img.shields.io/cocoapods/v/Skybox.svg?style=flat)](http://cocoapods.org/pods/Skybox)
@@ -27,3 +28,6 @@ appleMini, s1298web@163.com
 ## License
 
 Skybox is available under the MIT license. See the LICENSE file for more info.
+=======
+私有库
+>>>>>>> 124684d95c2c93ce32c2abd2105a479dec8c9839
